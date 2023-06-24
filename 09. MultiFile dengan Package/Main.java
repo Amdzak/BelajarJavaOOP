@@ -12,7 +12,7 @@ package project;
  *      import namaFolder.namaFolder.NamaFile;
  */
 
-import com.Terminal.Console;
+import Terminal.Console;
 
 public class main{
     public static void main(String args[]){
