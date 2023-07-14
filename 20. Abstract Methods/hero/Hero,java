@@ -1,0 +1,27 @@
+package com.hero;
+
+public abstract class Hero {
+    private String nama;
+    private int level;
+    private double nyawa;
+
+    public  Hero(String nama, double nyawa){
+        this.nama = nama;
+        this.nyawa = nyawa;
+        this.level = 1;
+    }
+
+    public String getNama(){
+        return this.nama;
+    }
+    public double getNyawa(){
+        return this.nyawa;
+    }
+
+    public void setNyawa(double nyawa){
+        this.nyawa = nyawa;
+    }
+
+    // pembuatan method dengan tipe abstract yang akan memaksa turunannya harus memiliki fungsi ini
+    public abstract void display();
+}
